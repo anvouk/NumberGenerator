@@ -1,0 +1,20 @@
+uses
+	CtrlLib;
+
+file
+	NumberGenerator.upp,
+	main.cpp,
+	Model readonly separator,
+	Model\iv_generator.hpp,
+	Model\iv_generator.cpp,
+	T readonly separator,
+	T\lang.t,
+	View readonly separator,
+	View\NumberGenerator.lay,
+	ViewModel readonly separator,
+	ViewModel\NumberGenerator.hpp,
+	ViewModel\NumberGenerator.cpp;
+
+mainconfig
+	"" = "GUI";
+

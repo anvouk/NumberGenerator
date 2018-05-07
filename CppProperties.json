@@ -1,0 +1,30 @@
+{
+  "configurations": [
+    {
+      "inheritEnvironments": [
+        "msvc_x86"
+      ],
+      "name": "x86-Debug",
+      "includePath": [
+        "${env.WindowsSdkDir}include\\${env.WindowsSDKVersion}\\ucrt",
+        "${env.NETFXSDKDir}\\include\\um",
+        "${env.WindowsSdkDir}include\\${env.WindowsSDKVersion}\\um",
+        "${env.WindowsSdkDir}include\\${env.WindowsSDKVersion}\\shared",
+        "${env.VCToolsInstallDir}include",
+
+        "C:\\Apps\\upp\\uppsrc",
+        "C:\\Apps\\upp\\MyApps",
+
+        "${workspaceRoot}\\**",
+
+        "C:\\Libraries\\installed\\x86-windows\\include"
+      ],
+      "defines": [
+        "WIN32",
+        "_DEBUG"
+      ],
+      "compilerSwitches": "/std:c++latest",
+      "intelliSenseMode": "windows-msvc-x86"
+    }
+  ]
+}

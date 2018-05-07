@@ -1,0 +1,7 @@
+LAYOUT(MainWndLayout, 320, 136)
+	ITEM(Button, generateButton, SetLabel(t_("Generate")).LeftPosZ(8, 68).TopPosZ(32, 20))
+	ITEM(EditString, textOutput, SetEditable(false).WantFocus(false).HSizePosZ(8, 8).TopPosZ(92, 19))
+	ITEM(Label, dv___2, SetLabel(t_("Output:")).LeftPosZ(8, 140).TopPosZ(72, 19))
+	ITEM(EditString, textInput, HSizePosZ(8, 8).TopPosZ(8, 19))
+END_LAYOUT
+
